@@ -37,9 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'compromisso',
-    'contato',
-    'usuario',
+    'compromisso.apps.CompromissoConfig',
+    'contato.apps.ContatoConfig',
+    'usuario.apps.UsuarioConfig',
     'rest_framework'
 ]
 
