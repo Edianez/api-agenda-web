@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from contato import models
+from apiagenda.contato import models
 
 
 class ContatoSerializer(serializers.ModelSerializer):

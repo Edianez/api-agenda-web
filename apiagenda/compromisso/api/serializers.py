@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from compromisso import models
+from apiagenda.compromisso import models
 
 
 class CompromissoSerializer(serializers.ModelSerializer):

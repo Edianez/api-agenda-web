@@ -37,10 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'compromisso.apps.CompromissoConfig',
-    'contato.apps.ContatoConfig',
-    'usuario.apps.UsuarioConfig',
-    'rest_framework'
+    'rest_framework',
+    'apiagenda.compromisso',
+    'apiagenda.contato',
+    'apiagenda.usuario'
 ]
 
 MIDDLEWARE = [
@@ -132,8 +132,3 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.DjangoModelPermissions',
-    )
-}

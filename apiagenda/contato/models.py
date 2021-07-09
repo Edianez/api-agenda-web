@@ -1,5 +1,5 @@
 from django.db import models
-from usuario import models as usuModels
+from apiagenda.usuario import models as usuModels
 
 
 # Create your models here.

@@ -1,6 +1,6 @@
 from django.db import models
-from usuario import models as usuModels
-from contato import models as conModels
+from apiagenda.usuario import models as usuModels
+from apiagenda.contato import models as conModels
 
 
 # Create your models here.

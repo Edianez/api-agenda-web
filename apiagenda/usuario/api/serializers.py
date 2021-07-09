@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from usuario import models
+from apiagenda.usuario.models import Usuario
 
 
 class UsuarioSerializer(serializers.ModelSerializer):
     class Meta:
-        model = models.Usuario
+        model = Usuario
         fields = '__all__'
