@@ -19,6 +19,6 @@ from django.conf.urls import url,include
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('apiagenda.usuario.urls')),
-    #url(r'^', include('contato.urls')),
-    #url(r'^', include('compromisso.urls')),
+    url(r'^', include('apiagenda.contato.urls')),
+    url(r'^', include('apiagenda.compromisso.urls')),
 ]
